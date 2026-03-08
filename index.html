@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pirkon Kukka | Kukkakauppa Tampere</title>
+  <meta name="description" content="Pirkon Kukka, kukkakauppa Tampereen keskustassa. Kukkakimput, asetelmat ja tilaustyöt. Auki myös sunnuntaisin.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pirkon Kukka | Kukkakauppa Tampere">
+  <meta property="og:description" content="Kukkakauppa Tampereen keskustassa. Kukkakimput tilauksesta tai suoraan myymälästä.">
+  <meta property="og:image" content="https://i.ibb.co/HpFVFgzz/IMG-9218.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fi_FI">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pirkon Kukka",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rautatienkatu 17-19",
+      "postalCode": "33100",
+      "addressLocality": "Tampere",
+      "addressCountry": "FI"
+    },
+    "telephone": "040 1546445",
+    "email": "gabriel.mansnerus@gmail.com",
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "09:30", "closes": "17:30"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "15:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "15:00"}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGAATIO -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="site-logo" aria-label="Pirkon Kukka – etusivu">
+        <span class="logo-text">Pirkon Kukka</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Päänavigaatio">
+        <ul class="nav-list" role="list">
+          <li><a href="#palvelut" class="nav-link">Palvelut</a></li>
+          <li><a href="#galleria" class="nav-link">Galleria</a></li>
+          <li><a href="#arvostelut" class="nav-link">Arvostelut</a></li>
+          <li><a href="#aukiolo" class="nav-link">Aukioloajat</a></li>
+          <li><a href="#yhteystiedot" class="nav-link">Yhteystiedot</a></li>
+        </ul>
+        <div class="nav-indicator" aria-hidden="true"></div>
+      </nav>
+
+      <a href="#yhteystiedot" class="btn btn-primary nav-cta" aria-label="Tee tilaus tai kysy lisää">Tee tilaus</a>
+
+      <button class="hamburger" aria-label="Avaa valikko" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobiilimenu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobiilinavigaatio">
+        <ul class="mobile-nav-list" role="list">
+          <li><a href="#palvelut" class="mobile-nav-link">Palvelut</a></li>
+          <li><a href="#galleria" class="mobile-nav-link">Galleria</a></li>
+          <li><a href="#arvostelut" class="mobile-nav-link">Arvostelut</a></li>
+          <li><a href="#aukiolo" class="mobile-nav-link">Aukioloajat</a></li>
+          <li><a href="#yhteystiedot" class="mobile-nav-link">Yhteystiedot</a></li>
+          <li><a href="#yhteystiedot" class="btn btn-primary mobile-cta">Tee tilaus</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Esittely">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1617316700574-a4ef3f059257?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwxfHxmbG93ZXIlMjBzaG9wJTIwYm91cXVldHxlbnwwfDB8fHwxNzcyOTAwMzU2fDA&ixlib=rb-4.1.0&w=1920&q=85&auto=format&fit=crop"
+          alt="Kukkakimppu"
+          class="hero-bg-img"
+          title="Photo by Barry Talley on Unsplash"
+          loading="eager"
+        >
+        <div class="hero-overlay"></div>
+        <div class="hero-mesh" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-eyebrow">Kukkakauppa Tampere</h1>
+        <h2 class="hero-headline">
+          Kukat tuoreina,<br>
+          <span class="hero-rotating-word" aria-live="polite">
+            <span class="rotating-item active">toiveidesi mukaan</span>
+            <span class="rotating-item">juhlaan ja arkeen</span>
+            <span class="rotating-item">nopeasti ja vaivatta</span>
+          </span>
+        </h2>
+        <p class="hero-sub">Rautatienkatu 17-19, Tampere. Aukioloajat: ti-pe 9.30-17.30, la 9.00-15.00, su 11.00-15.00.</p>
+        <div class="hero-actions">
+          <a href="#yhteystiedot" class="btn btn-primary btn-lg">Tee tilaus</a>
+          <a href="#galleria" class="btn btn-outline btn-lg">Katso töitä</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PALVELUT -->
+    <section class="section palvelut-section" id="palvelut" aria-label="Palvelut">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Mitä teemme</span>
+          <h2 class="section-title">Palvelut</h2>
+        </div>
+
+        <div class="palvelut-grid">
+          <article class="palvelu-card reveal">
+            <div class="palvelu-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1664664675464-4399b03da856?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwxNXx8ZmxvcmlzdCUyMGFycmFuZ2luZyUyMGZsb3dlcnN8ZW58MHwwfHx8MTc3MjkwMDM1N3ww&ixlib=rb-4.1.0&w=1080&q=85&auto=format&fit=crop"
+                alt="Kukkakaupan kukkia"
+                loading="lazy"
+                title="Photo by Maria Benedita on Unsplash"
+              >
+            </div>
+            <div class="palvelu-body">
+              <h3>Tilaa kukkakimppu toiveidesi mukaan</h3>
+              <p>Soita tai lähetä viesti. Teemme kimpun toiveidesi mukaan: valitse värit, tyylin ja budjetin. Tilaukset onnistuvat usein myös samalle päivälle.</p>
+            </div>
+          </article>
+
+          <article class="palvelu-card reveal">
+            <div class="palvelu-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1768766367581-77477f7c802c?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMGN1dCUyMGZsb3dlcnMlMjBtYXJrZXR8ZW58MHwwfHx8MTc3MjkwMDM1OHww&ixlib=rb-4.1.0&w=1080&q=85&auto=format&fit=crop"
+                alt="Tuoreet leikkokukat"
+                loading="lazy"
+                title="Photo by Harshit Katiyar on Unsplash"
+              >
+            </div>
+            <div class="palvelu-body">
+              <h3>Valitse tuoreita leikkokukkia</h3>
+              <p>Myymälästämme löydät aina laajan valikoiman sesongin mukaisia leikkokukkia. Poimi mukaan valmis kimppu tai anna meidän sitoa se paikan päällä.</p>
+            </div>
+          </article>
+
+          <article class="palvelu-card reveal">
+            <div class="palvelu-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwyfHxjb3p5JTIwZmxvd2VyJTIwYm91dGlxdWV8ZW58MHwwfHx8MTc3MjkwMDM1OHww&ixlib=rb-4.1.0&w=1080&q=85&auto=format&fit=crop"
+                alt="Kukka-asetelmat tilaisuuksiin"
+                loading="lazy"
+                title="Photo by Dominik Neuner on Unsplash"
+              >
+            </div>
+            <div class="palvelu-body">
+              <h3>Kukka-asetelmat juhliin ja muistotilaisuuksiin</h3>
+              <p>Suunnittelemme ja toteutamme kukka-asetelmat häihin, syntymäpäiville ja muistotilaisuuksiin. Voit noutaa valmiit asetelmat myymälästä tai sopia toimituksesta tapahtumapaikalle.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section" aria-label="Numerot">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal-stat">
+            <div class="stat-number">4.7★</div>
+            <div class="stat-label">Google-arvosana</div>
+          </div>
+          <div class="stat-card reveal-stat">
+            <div class="stat-number">44</div>
+            <div class="stat-label">Arvostelua</div>
+          </div>
+          <div class="stat-card reveal-stat">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Päivää auki viikossa</div>
+          </div>
+          <div class="stat-card reveal-stat">
+            <div class="stat-number">la ja su</div>
+            <div class="stat-label">Avoinna myös viikonloppuisin</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERIA -->
+    <section class="section galleria-section" id="galleria" aria-label="Galleria">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Töitämme</span>
+          <h2 class="section-title">Galleria</h2>
+        </div>
+
+        <div class="galleria-grid">
+          <figure class="galleria-item reveal">
+            <img
+              src="https://i.ibb.co/HpFVFgzz/IMG-9218.jpg"
+              alt="Vaaleanpunainen kukkakimppu pioneineen ja alstromerineen"
+              loading="lazy"
+              style="object-fit:cover; object-position: center center;"
+            >
+            <figcaption>Kesäinen pionikimppu</figcaption>
+          </figure>
+
+          <figure class="galleria-item reveal">
+            <img
+              src="https://i.ibb.co/XZ127Pp0/IMG-9217.jpg"
+              alt="Valkoinen ja liila kukkakimppu gladioluksineen"
+              loading="lazy"
+              style="object-fit:cover; object-position: center center;"
+            >
+            <figcaption>Vaalea juhlakimppu</figcaption>
+          </figure>
+
+          <figure class="galleria-item reveal">
+            <img
+              src="https://i.ibb.co/FbXk2mBj/IMG-9220.jpg"
+              alt="Vaaleanpunainen ja violetti neilikka-kimppu"
+              loading="lazy"
+              style="object-fit:cover; object-position: center 60%;"
+            >
+            <figcaption>Neilikka-asetelma</figcaption>
+          </figure>
+
+          <figure class="galleria-item reveal">
+            <img
+              src="https://i.ibb.co/dw7J5dW8/IMG-9221.jpg"
+              alt="Amaryllis-kimppu tummanpunaisine kukkinen"
+              loading="lazy"
+              style="object-fit:cover; object-position: center center;"
+            >
+            <figcaption>Amaryllis-kimppu</figcaption>
+          </figure>
+
+          <figure class="galleria-item reveal">
+            <img
+              src="https://i.ibb.co/1Yq5M9QH/IMG-9219.jpg"
+              alt="Vaalea kevätkerho gerberien ja krysanteemien kera"
+              loading="lazy"
+              style="object-fit:cover; object-position: center 40%;"
+            >
+            <figcaption>Keväinen kukkakimppu</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUKIOLOAJAT -->
+    <section class="section aukiolo-section" id="aukiolo" aria-label="Aukioloajat">
+      <div class="container">
+        <div class="aukiolo-inner reveal">
+          <div class="aukiolo-text">
+            <span class="section-label">Milloin olemme auki</span>
+            <h2 class="section-title">Aukioloajat</h2>
+            <p>Olemme Tampereen keskustassa, Rautatienkadulla. Maanantaisin myymälä on suljettu.</p>
+            <a href="tel:0401546445" class="btn btn-primary" style="margin-top:1.5rem; display:inline-block;">Soita 040 1546445</a>
+          </div>
+          <div class="aukiolo-taulukko">
+            <table class="aukiolo-table" aria-label="Aukioloajat viikonpäivittäin">
+              <tbody>
+                <tr class="suljettu">
+                  <th scope="row">Maanantai</th>
+                  <td>Suljettu</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tiistai</th>
+                  <td>9.30-17.30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Keskiviikko</th>
+                  <td>9.30-17.30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Torstai</th>
+                  <td>9.30-17.30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Perjantai</th>
+                  <td>9.30-17.30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lauantai</th>
+                  <td>9.00-15.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sunnuntai</th>
+                  <td>11.00-15.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARVOSTELUT -->
+    <section class="section arvostelut-section" id="arvostelut" aria-label="Asiakasarvostelut">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Mitä asiakkaat sanovat</span>
+          <h2 class="section-title">Asiakkaat kehuvat</h2>
+          <div class="kokonaisarvosana reveal" aria-label="Kokonaisarvosana 4,7 tähteä, 44 arvostelua">
+            <span class="iso-arvosana">4.7</span>
+            <div class="tahdet-iso" aria-hidden="true">★★★★★</div>
+            <span class="arvosana-maara">44 Google-arvostelua</span>
+          </div>
+        </div>
+
+        <!-- reviews-generated -->
+        <div class="arvostelut-grid" data-place-id="ChIJ78ku7qrYjkYRaaPbSqF1CeY">
+          <article class="arvostelu-kortti reveal">
+            <div class="arvostelu-tahdet" aria-label="5 tähteä">★★★★★</div>
+            <blockquote>
+              <p>"Tilasin samana päivänä puhelimitse kaksi juhlavaa kimppua yhdistyksen asioissa. Pirkon Kukka onnistui upeasti, kiitos!"</p>
+            </blockquote>
+            <footer>
+              <strong>Suvi Viljakainen</strong>
+              <time>3 kuukautta sitten</time>
+            </footer>
+          </article>
+
+          <article class="arvostelu-kortti reveal">
+            <div class="arvostelu-tahdet" aria-label="5 tähteä">★★★★★</div>
+            <blockquote>
+              <p>"Ystävällinen palvelu ja aivan ihana kimppu toiveiden mukaan. Suosittelen!"</p>
+            </blockquote>
+            <footer>
+              <strong>Ida Tapio</strong>
+              <time>2 viikkoa sitten</time>
+            </footer>
+          </article>
+
+          <article class="arvostelu-kortti reveal">
+            <div class="arvostelu-tahdet" aria-label="5 tähteä">★★★★★</div>
+            <blockquote>
+              <p>"Laaja valikoima, ystävällinen palvelu ja kohtuulliset hinnat. Asioin mielelläni uudestaankin ❤️"</p>
+            </blockquote>
+            <footer>
+              <strong>Aino Kesäniemi</strong>
+              <time>5 kuukautta sitten</time>
+            </footer>
+          </article>
+
+          <article class="arvostelu-kortti reveal">
+            <div class="arvostelu-tahdet" aria-label="5 tähteä">★★★★★</div>
+            <blockquote>
+              <p>"Aivan ihana palvelu ja kukkakimppu on superkaunis. Kaikki hoitui helposti. Suosittelen lämpimästi."</p>
+            </blockquote>
+            <footer>
+              <strong>Noora Laakso</strong>
+              <time>Vuosi sitten</time>
+            </footer>
+          </article>
+
+          <article class="arvostelu-kortti reveal">
+            <div class="arvostelu-tahdet" aria-label="5 tähteä">★★★★★</div>
+            <blockquote>
+              <p>"Ystävällinen ja asiantunteva palvelu! Myös sunnuntaisin auki. Loistava hinta-laatusuhde!"</p>
+            </blockquote>
+            <footer>
+              <strong>M-T Fagerlund</strong>
+              <time>10 kuukautta sitten</time>
+            </footer>
+          </article>
+        </div>
+        <!-- /reviews-generated -->
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" id="faq" aria-label="Usein kysytyt kysymykset">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Usein kysyttyä</span>
+          <h2 class="section-title">Usein kysytyt kysymykset</h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Voinko tilata kimpun samalle päivälle?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Kyllä, useimmiten se onnistuu. Soita meille heti aamusta, niin teemme kimpun valmiiksi noutoa varten. Myöhemmin päivällä kannattaa varmistaa kukkien saatavuus puhelimitse.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Toimitatteko kukat kotiin tai tapahtumapaikalle?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Kyllä, sovimme toimituksista tapauskohtaisesti. Ota yhteyttä puhelimitse numeroon 040 1546445 ja kysy lisää.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Teettekö tilauksia hautajaisiin?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Kyllä. Suunnittelemme ja toteutamme arkkukukat, seppeleet ja muut muistotilaisuuden kukka-asetelmat. Otathan yhteyttä ajoissa, jotta ehdimme käydä yksityiskohdat läpi huolellisesti.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Miten voin tehdä tilauksen?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Tee tilaus soittamalla numeroon 040 1546445 tai täyttämällä yhteydenottolomake tällä sivulla. Muistathan kertoa toivotun tyylin, budjetin ja noutoajan.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Myyttekö myös yksittäisiä kukkia?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Kyllä, myymälässämme on aina valikoima tuoreita leikkokukkia myös yksittäin ostettavaksi. Valikoima vaihtelee sesongin ja saatavuuden mukaan.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Onko teillä lahjakortteja?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Kyllä, meiltä saa lahjakortteja. Kysy lisää myymälästä tai soittamalla. Lahjakortti on oiva lahja syntymäpäiville, häihin tai muihin merkkipäiviin.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Oletteko auki pyhäpäivinä?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Normaalit aukioloajat näet yllä olevasta taulukosta. Suurina juhlapyhäkausina, kuten äitienpäivänä ja jouluna, aukioloajat saattavat poiketa. Ajankohtaisimman tiedon löydät Facebook-sivuiltamme tai soittamalla meille.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIJAINTI -->
+    <section class="section sijainti-section" id="sijainti" aria-label="Sijainti">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Löydät meidät</span>
+          <h2 class="section-title">Sijainti</h2>
+        </div>
+        <div class="kartta-wrap reveal">
+          <iframe
+            src="https://maps.google.com/maps?q=Rautatienkatu%2017-19%2C%2033100%20Tampere&output=embed"
+            width="100%"
+            height="350"
+            style="border:0; border-radius:12px;"
+            allowfullscreen
+            loading="lazy"
+            title="Pirkon Kukka sijainti kartalla"
+            aria-label="Google Maps kartta: Pirkon Kukka, Rautatienkatu 17-19, Tampere"
+          ></iframe>
+        </div>
+        <p class="sijainti-osoite reveal">
+          <strong>Pirkon Kukka</strong><br>
+          Rautatienkatu 17-19, 33100 Tampere<br>
+          <a href="tel:0401546445">040 1546445</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- YHTEYSTIEDOT & LOMAKE -->
+    <section class="section yhteystiedot-section" id="yhteystiedot" aria-label="Yhteystiedot ja tilauslomake">
+      <div class="container">
+        <div class="yhteystiedot-inner">
+          <div class="yhteystiedot-info reveal">
+            <span class="section-label">Ota yhteyttä</span>
+            <h2 class="section-title">Tee tilaus</h2>
+            <p>Voit jättää meille viestin lomakkeella tai soittaa suoraan. Vastaamme kaikkiin tiedusteluihin arkisin saman päivän aikana.</p>
+
+            <ul class="yhteys-lista" role="list">
+              <li>
+                <span class="yhteys-icon" aria-hidden="true">📞</span>
+                <a href="tel:0401546445">040 1546445</a>
+              </li>
+              <li>
+                <span class="yhteys-icon" aria-hidden="true">📧</span>
+                <a href="mailto:gabriel.mansnerus@gmail.com">gabriel.mansnerus@gmail.com</a>
+              </li>
+              <li>
+                <span class="yhteys-icon" aria-hidden="true">📍</span>
+                <span>Rautatienkatu 17-19, 33100 Tampere</span>
+              </li>
+              <li>
+                <span class="yhteys-icon" aria-hidden="true">📘</span>
+                <a href="https://www.facebook.com/profile.php?id=100057581434223" target="_blank" rel="noopener noreferrer">Facebook</a>
+              </li>
+              <li>
+                <span class="yhteys-icon" aria-hidden="true">📸</span>
+                <a href="https://www.instagram.com/pirkonkukka/" target="_blank" rel="noopener noreferrer">@pirkonkukka</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="lomake-wrap reveal">
+            <form
+              class="yhteydenotto-lomake" action="https://formsubmit.co/gabriel.mansnerus@gmail.com"
+              method="POST"
+              novalidate
+              aria-label="Yhteydenottolomake"
+            >
+  <input type="hidden" name="_subject" value="Yhteydenotto – Pirkon Kukka">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+              <div class="form-group">
+                <label for="nimi">Nimi</label>
+                <input type="text" id="nimi" name="nimi" placeholder="Etunimi Sukunimi" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="puhelin">Puhelin</label>
+                <input type="tel" id="puhelin" name="puhelin" placeholder="040 1234567" autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="email_kentta">Sähköposti</label>
+                <input type="email" id="email_kentta" name="email" placeholder="sinä@email.fi" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="viesti">Viesti</label>
+                <textarea id="viesti" name="viesti" rows="5" placeholder="Kerro toivottu tyyli, tilaisuus ja noutoaika..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Lähetä viesti</button>
+              <div class="lomake-status" aria-live="polite" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA-PALKKI -->
+    <section class="cta-bar" aria-label="Toimintakehote">
+      <div class="container">
+        <h2 class="cta-bar-title">Kimppu valmiina jo tänään</h2>
+        <p class="cta-bar-sub">Soita tai lähetä meille viesti, niin hoidamme tilauksesi kuntoon.</p>
+        <a href="tel:0401546445" class="btn btn-cta-light btn-lg">Soita 040 1546445</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-text">Pirkon Kukka</span>
+          <p>Rautatienkatu 17-19, 33100 Tampere</p>
+        </div>
+        <div class="footer-links">
+          <ul role="list">
+            <li><a href="#palvelut">Palvelut</a></li>
+            <li><a href="#galleria">Galleria</a></li>
+            <li><a href="#aukiolo">Aukioloajat</a></li>
+            <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+          </ul>
+        </div>
+        <div class="footer-some">
+          <a href="https://www.instagram.com/pirkonkukka/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100057581434223" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Pirkon Kukka. Kuvat: <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

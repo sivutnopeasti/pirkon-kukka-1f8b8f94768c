@@ -1,0 +1,58 @@
+{
+  "site_id": "1f8b8f94768c",
+  "repo": "sivutnopeasti/pirkon-kukka-1f8b8f94768c",
+  "company": "Pirkon Kukka",
+  "email": "gabriel.mansnerus@gmail.com",
+  "place_id": "ChIJ78ku7qrYjkYRaaPbSqF1CeY",
+  "issue_number": 63,
+  "instagram_username": "pirkonkukka,",
+  "instagram_feed": false,
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1617316700574-a4ef3f059257?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwxfHxmbG93ZXIlMjBzaG9wJTIwYm91cXVldHxlbnwwfDB8fHwxNzcyOTAwMzU2fDA&ixlib=rb-4.1.0&w=1920&q=85&auto=format&fit=crop",
+      "alt": "Kukkakimppu"
+    },
+    "image-1": {
+      "url": "https://images.unsplash.com/photo-1664664675464-4399b03da856?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwxNXx8ZmxvcmlzdCUyMGFycmFuZ2luZyUyMGZsb3dlcnN8ZW58MHwwfHx8MTc3MjkwMDM1N3ww&ixlib=rb-4.1.0&w=1080&q=85&auto=format&fit=crop",
+      "alt": "Kukkakaupan kukkia"
+    },
+    "image-2": {
+      "url": "https://images.unsplash.com/photo-1768766367581-77477f7c802c?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMGN1dCUyMGZsb3dlcnMlMjBtYXJrZXR8ZW58MHwwfHx8MTc3MjkwMDM1OHww&ixlib=rb-4.1.0&w=1080&q=85&auto=format&fit=crop",
+      "alt": "Tuoreet leikkokukat"
+    },
+    "image-3": {
+      "url": "https://images.unsplash.com/photo-1761470371217-a4de0ff0e8df?ixid=M3w4ODYwNTl8MHwxfHNlYXJjaHwyfHxjb3p5JTIwZmxvd2VyJTIwYm91dGlxdWV8ZW58MHwwfHx8MTc3MjkwMDM1OHww&ixlib=rb-4.1.0&w=1080&q=85&auto=format&fit=crop",
+      "alt": "Kukka-asetelmat tilaisuuksiin"
+    },
+    "image-4": {
+      "url": "https://i.ibb.co/HpFVFgzz/IMG-9218.jpg",
+      "alt": "Vaaleanpunainen kukkakimppu pioneineen ja alstromerineen"
+    },
+    "image-5": {
+      "url": "https://i.ibb.co/XZ127Pp0/IMG-9217.jpg",
+      "alt": "Valkoinen ja liila kukkakimppu gladioluksineen"
+    },
+    "image-6": {
+      "url": "https://i.ibb.co/FbXk2mBj/IMG-9220.jpg",
+      "alt": "Vaaleanpunainen ja violetti neilikka-kimppu"
+    },
+    "image-7": {
+      "url": "https://i.ibb.co/dw7J5dW8/IMG-9221.jpg",
+      "alt": "Amaryllis-kimppu tummanpunaisine kukkinen"
+    },
+    "image-8": {
+      "url": "https://i.ibb.co/1Yq5M9QH/IMG-9219.jpg",
+      "alt": "Vaalea kevätkerho gerberien ja krysanteemien kera"
+    }
+  },
+  "texts": {
+    "h1": "Kukkakauppa Tampere",
+    "h2_1": "Kukat tuoreina,\n          \n            toiveidesi mukaan\n            juhlaan ja arkeen\n            nopeasti ja vaivatta",
+    "h2_2": "Palvelut",
+    "h2_3": "Galleria",
+    "h2_4": "Aukioloajat",
+    "h2_5": "Asiakkaat kehuvat",
+    "h2_6": "Usein kysytyt kysymykset",
+    "hero_p": "Rautatienkatu 17-19, Tampere. Aukioloajat: ti-pe 9.30-17.30, la 9.00-15.00, su 11.00-15.00."
+  }
+}
